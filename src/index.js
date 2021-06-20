@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import ControlPannel from './ControlPannel/ControlPannel';
 
 
-import ControlPannel from './Counter/ControlPannel';
-import ControlPannel_Flux from './ControlPanel/ControlPanel_Flux';
-import ControlPanelPractise from './ControlPanel/ControlPannelPractise.js'
 
 ReactDOM.render(  
   <React.StrictMode>
-    <ControlPanelPractise />
+    <ControlPannel/>
   </React.StrictMode>,
   document.getElementById('root')
 );
